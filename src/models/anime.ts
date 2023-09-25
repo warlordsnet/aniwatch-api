@@ -1,6 +1,7 @@
 export interface Anime {
   id: string | null;
   name: string | null;
+  jname: string | null;
   poster: string | null;
   duration: string | null;
   type: string | null;

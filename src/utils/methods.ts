@@ -28,6 +28,10 @@ export const extractAnimes = (
           .find(".film-detail .film-name .dynamic-name")
           ?.text()
           ?.trim(),
+	    jname: $(el)
+            .find(".film-detail .film-name .dynamic-name")
+            .attr("data-jname")
+            ?.trim() || null,
         poster:
           $(el)
             .find(".film-poster .film-poster-img")

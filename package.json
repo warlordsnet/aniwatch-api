@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ghoshRitesh12/aniwatch-api.git"
+    "url": "git+https://github.com/warlordsnet/aniwatch-api.git"
   },
   "bugs": {
-    "url": "https://github.com/ghoshRitesh12/aniwatch-api/issues"
+    "url": "https://github.com/warlordsnet/aniwatch-api/issues"
   },
-  "homepage": "https://github.com/ghoshRitesh12/aniwatch-api#readme",
+  "homepage": "https://github.com/warlordsnet/aniwatch-api#readme",
   "keywords": [
     "anime",
     "aniwatch"

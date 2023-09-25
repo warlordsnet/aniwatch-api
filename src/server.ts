@@ -33,5 +33,5 @@ app.listen(PORT, () => {
 // don't sleep
 setInterval(() => {
   console.log("HEALTHCHECK ;)", new Date().toLocaleString());
-  https.get("https://zoroapi.onrender.com/health");
+  https.get("/health");
 }, 540000);
